@@ -11,6 +11,7 @@ import { CoreModule } from './@core/core.module';
 import { ThemeModule } from './@theme/theme.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import {Ng2SmartTableModule} from 'ng2-smart-table';
 import {
   NbChatModule,
   NbDatepickerModule,
@@ -28,6 +29,7 @@ import {
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
+    Ng2SmartTableModule,
 
     ThemeModule.forRoot(),
 
